@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Média</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="#">
+    <h1 class="page-title">
+    Calculadora de média</h1>
+  <a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="#" class="alura-logo">
+  </a>
+  </header>
+  <main>
+    <p class="page-subtitle">
+    Descubra qual a sua média de nota de todas as provas!
+    </p>
+    <form>
+      <fieldset>
+        <legend>Insira suas notas aqui</legend>
+        <div id="field">
+          <label for="b1">Primeiro Bimestre:</label>
+          <input type="number" name="b1" id="b1"/>
+          <br>
+          <label for="b1">Segundo Bimestre:</label>
+          <input type="number" name="b2" id="b2"/>
+          <br>
+          <label for="b1">Terceiro Bimestre:</label>
+          <input type="number" name="b3" id="b3"/>
+          <br>
+          <label for="b1">Quarto Bimestre:</label>
+          <input type="number" name="b4" id="b4"/>
+        </div>
+        <br>
+        <button onclick="calcMedia()">Passei de ano?🤔</button>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p>Desenvolvido por Daniel Rodrigues</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
