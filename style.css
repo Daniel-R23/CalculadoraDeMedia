@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-color: #1a1a1a;
+  background-image:url("https://www.transparenttextures.com/patterns/asfalt-dark.png")
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:10px 20px;
+}
+
+.page-logo {
+  width: 100px;
+}
+
+.page-title {
+  color:#f4f4f4;
+  text-align:center;
+}
+.alura-logo {
+  width: 50px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 25px;
+  text-align: center;
+}
+main{
+  display:flex;
+  flex-wrap:wrap;
+  flex-flow:column;
+  align-items:center;
+  justify-content:center;
+}
+form{
+  margin-top:30px;
+}
+fieldset{
+  padding:15px;
+  background-color:#8D99AE;
+  border:none;
+  text-align:center;
+  box-shadow: 2px 2px 5px #000000e5;
+}
+legend{
+  text-align:center;
+  background-color:#EF233C;
+  color:#EDF2F4;
+  box-shadow:1px 1px 5px #000;
+  padding:5px;
+  border:none;
+}
+label{
+  display:inline-block;
+  min-width:170px;
+  color:#FFFFFF;
+  text-align:left;
+}
+input{
+  width:150px;
+  height:30px;
+  border:none;
+  border-bottom:1px solid #1a1a1a;
+  background-color:#fafafa;
+  text-align:right;
+  margin:10px 0px;
+}
+input:focus{
+  outline:none;
+  border:1px solid #2B2D42;
+  background-color:#f4f4f4;
+}
+button{
+  padding:15px 30px;
+  border:none;
+  background-color:#2B2D42;
+  border-radius:50px;
+  box-shadow: 2px 2px 5px #000000ae;
+  color:#fff;
+  font-weight:bold;
+}
+button:hover{
+  background-color:#447;
+}
+footer{
+  color:white;
+  text-align:center;
+  margin-top:20px;
+}
